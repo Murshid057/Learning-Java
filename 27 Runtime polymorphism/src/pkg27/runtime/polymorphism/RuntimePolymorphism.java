@@ -33,8 +33,9 @@ public class RuntimePolymorphism {
         p.display();
         
         Teacher t = new Teacher();
-        p.age = 30;
-        p.name = "Mizanur Rahman";
+        t.age = 30;
+        t.name = "Mizanur Rahman";
+        t.qualification = "Master";
         t.display();
     }
     

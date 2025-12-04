@@ -31,11 +31,12 @@ public class DynamicMethodDispatch {
         Person p = new Person();
         p.display();
         
-        //Person p = new Teacher();
-        p = new Teacher();                 //Dynamic Method Dispatch;
+        p = new Teacher();
+        //p = new Teacher();                 //Dynamic Method Dispatch;
         p.name = "Mizanur Rahman";
         p.age = 27;
         p.display();
+        
     }
     
 }
